@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //判断包名是否存在
-                if(!AppUtils.isInstallApp("cn.xt800.support")){
+                if(!AppUtils.isInstallApp("cn.xt800.support1")){
                     copyFilesFromAssets(MainActivity.this, Environment.getExternalStorageDirectory().getAbsolutePath()+"/xt800/xt.apk");
                 }
 //                if(isAvilible("cn.xt800.support")){
